@@ -14,10 +14,8 @@ public class Player : MonoBehaviour
     private bool _isGrounded;
 
     // Audio
-
-    [SerializeField] private AudioSource _playerAudioSource;
-    [SerializeField] private AudioClip _playerWalkSFX;
-    [SerializeField] private AudioClip _playerJumpSFX;
+    [SerializeField] private AudioSource _sfxWalk;
+    [SerializeField] private AudioSource _sfxJump;
 
     // Input
     private InputAction _moveAction;
@@ -100,16 +98,17 @@ public class Player : MonoBehaviour
     private void Jump()
     {
         _rb.linearVelocityY = JumpForce;
-        PlayJumpAudio();
+        PlayJumpSFX();
     }
 
-    private void PlayJumpAudio()
+    private void PlayJumpSFX()
     {
-        _playerAudioSource.PlayOneShot(_playerJumpSFX, 0.5f);
+        _sfxJump.Play();
     }
 
-    public void PlayWalkAudio()
+    // Dipanggil dari Animation Event di walk animation
+    public void PlayWalkSFX()
     {
-        _playerAudioSource.PlayOneShot(_playerWalkSFX, 0.7f);
+        _sfxWalk.Play();
     }
 }

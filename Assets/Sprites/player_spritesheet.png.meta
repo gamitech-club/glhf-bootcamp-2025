@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_spritesheet_0
+      name: player_idle
       rect:
         serializedVersion: 2
         x: 1
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_spritesheet_1
+      name: player_jump
       rect:
         serializedVersion: 2
         x: 179
@@ -166,7 +166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_spritesheet_2
+      name: player_run_1
       rect:
         serializedVersion: 2
         x: 373
@@ -188,7 +188,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_spritesheet_3
+      name: player_run_2
       rect:
         serializedVersion: 2
         x: 571
@@ -225,10 +225,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player_spritesheet_0: 308115851
-      player_spritesheet_1: -750875518
-      player_spritesheet_2: 1758079006
-      player_spritesheet_3: 1732637700
+      player_idle: 308115851
+      player_jump: -750875518
+      player_run_1: 1758079006
+      player_run_2: 1732637700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

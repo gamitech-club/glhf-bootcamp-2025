@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "glhf-bootcamp-2025.slnx"
+    "dotnet.defaultSolution": "GLHF Bootcamp 2025.slnx"
 }
