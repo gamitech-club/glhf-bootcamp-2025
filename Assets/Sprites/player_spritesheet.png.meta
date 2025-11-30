@@ -105,93 +105,106 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_idle
+      name: player_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 14
-        width: 147
-        height: 148
+        x: 1
+        y: 15
+        width: 144
+        height: 146
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90085b7c7935b8810800000000000000
-      internalID: 1768599190028779529
+      spriteID: db4326def6b065c4fbdfd30b64415d79
+      internalID: 308115851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_jump
+      name: player_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 177
-        y: 14
-        width: 176
-        height: 162
+        x: 179
+        y: 15
+        width: 173
+        height: 161
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 030d83205e2c24400800000000000000
-      internalID: 307022013455192112
+      spriteID: 992d20411f7cca647b55bfd6571255b5
+      internalID: -750875518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_run_1
+      name: player_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 371
-        y: 14
-        width: 172
-        height: 152
+        x: 373
+        y: 15
+        width: 168
+        height: 150
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 18e40cc1ea758a930800000000000000
-      internalID: 4154667061567573633
+      spriteID: 5c293eaeeb652ee4a86b0899b7c0fb4c
+      internalID: 1758079006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_run_2
+      name: player_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 569
-        y: 14
-        width: 160
-        height: 145
+        x: 571
+        y: 15
+        width: 157
+        height: 142
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dca8212939d5c3370800000000000000
-      internalID: 8303614701356616397
+      spriteID: 00f51a01a53a4954bae098d616df3d49
+      internalID: 1732637700
       vertices: []
       indices: 
       edges: []
@@ -208,12 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player_idle: 1768599190028779529
-      player_jump: 307022013455192112
-      player_run_1: 4154667061567573633
-      player_run_2: 8303614701356616397
+      player_spritesheet_0: 308115851
+      player_spritesheet_1: -750875518
+      player_spritesheet_2: 1758079006
+      player_spritesheet_3: 1732637700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
