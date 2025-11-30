@@ -18,6 +18,9 @@ public class Player : MonoBehaviour
     private InputAction _jumpAction;
     private int _inputMoveX;
 
+    public int InputMoveX => _inputMoveX;
+    public bool IsGrounded => _isGrounded;
+
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
